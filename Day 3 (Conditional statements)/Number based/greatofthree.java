@@ -1,0 +1,28 @@
+//Write a Java Program to find greatest among three numbers.
+import java.util.Scanner;
+public class greatofthree
+{
+    public static void main(String[] args)
+    {
+        //input
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter three numbers : ");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        //condition checking
+        if(a>b && a>c)
+        {
+            System.out.println(a+" is the greatest");
+        }
+        else if(b>a && b>c)
+        {
+            System.out.println(b+" is the greatest");
+        }
+        else
+        {
+            System.out.println(c+" is the greatest");
+        }
+
+    }
+}
