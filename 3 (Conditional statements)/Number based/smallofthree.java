@@ -1,0 +1,27 @@
+//Write a Java Program to find smallest among three numbers.
+import java.util.Scanner;
+public class smallofthree 
+{
+    public static void main(String[] args)
+    {
+        //input
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter three numbers : ");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        //condition checking
+        if(a<b && a<c)
+        {
+            System.out.println(a+" is the smallest");
+        }
+        else if(b<a && b<c)
+        {
+            System.out.println(b+" is the smallest");
+        }
+        else
+        {
+            System.out.println(c+" is the smallest");
+        }
+    }    
+}
